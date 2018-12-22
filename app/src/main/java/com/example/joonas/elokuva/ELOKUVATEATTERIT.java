@@ -73,8 +73,8 @@ public class ELOKUVATEATTERIT extends AppCompatActivity {
         paikkakunnat = lue.teatterilista();
 
 
-        String s = "2018-12-01";
-        String e = "2018-12-10";
+        String s = "2018-12-24";
+        String e = "2019-01-15";
         LocalDate start = LocalDate.parse(s);
         LocalDate end = LocalDate.parse(e);
         List<String> totalDates = new ArrayList<>();
